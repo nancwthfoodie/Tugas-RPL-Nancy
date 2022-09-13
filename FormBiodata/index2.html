@@ -1,0 +1,140 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title><html>
+    <style>
+        input[type=text], select {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+        
+        input[type=submit] {
+          width: 100%;
+          background-color: #4CAF50;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #45a049;
+        }
+        
+        div {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+        }
+        </style>
+</head>
+<body>
+<div style="border:0; padding:10px; width:760px; height:auto;">
+<form action="action-input-data.php" method="POST" name="form-input-data">
+    <table width="760" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr height="46">
+                <td width="10%"> </td>
+                <td width="25%"> </td>
+                <td width="65%"><center><font color="orange" size="2">Form Input Biodata Siswa </font></td><center></td>
+        </tr>
+
+        <tr height="46">
+            <td> </td>
+            <td>Nama Siswa</td>
+            <td><input type="text" name="nama" size="35" maxlength="6" /></td>
+        </tr>
+
+        <tr height="46">
+            <td> </td>
+            <td>Jenis Kelamin</td>
+            <td><input type="text" name="jkel" size="50" maxlength="30" /></td>
+        </tr>
+
+        <tr height="46">
+            <td> </td>
+            <td>Agama</td>
+            <td><select name="agama">
+                    <option value="-">- Pilih Agama -
+                    <option value="Islam">Islam
+                    <option value="Kristen">Kristen
+                    <option value="Katholik">Katholik
+                    <option value="Hindu">Hindu
+                    <option value="Budha">Budha
+                    <option value="Konghucu">Konghucu
+                </select></td>
+        </tr>
+
+        <tr height="46">
+            <td> </td>
+            <td>Jurusan</td>
+            <td><select name="jurusan">
+                    <option value="-">- Pilih Jurusan -
+                    <option value="RPL">Rekayasa Perangkat Lunak
+                    <option value="TKJ">Teknik Komputer dan Jaringan
+                    <option value="MM">Multimedia
+                </select></td>
+        </tr>
+
+        <tr height="46">
+            <td> </td>
+            <td>Alamat</td>
+            <td><input type="text" name="alamat" size="50" maxlength="30" /></td>
+        </tr>
+
+        <tr height="46">
+            <td> </td>
+            <td>Tempat Lahir</td>
+            <td><input type="text" name="tlahir" size="50" maxlength="30" /></td>
+        </tr>
+
+        <tr height="46">
+            <td> </td>
+            <td>Tanggal Lahir</td>
+            <td><input type="text" name="ttl" size="50" maxlength="30" /></td>
+        </tr>
+
+        <tr height="46">
+            <td> </td>
+            <td>Usia</td>
+            <td><input type="text" name="usia" size="50" maxlength="30" /></td>
+        </tr>
+
+        <tr height="46">
+            <td> </td>
+            <td>Hobi</td>
+            <td><input type="text" name="hobi" size="50" maxlength="30" /></td>
+        </tr>
+        <tr height="46">
+            <td> </td>
+            <td>Cita Cita</td>
+            <td><input type="text" name="cita" size="50" maxlength="30" /></td>
+        </tr>
+
+        <tr height="46">
+            <td> </td>
+            <td>No. Telp</td>
+            <td><input type="text" name="telepon" size="20" maxlength="12" /></td>
+        </tr>
+
+        <tr height="46">
+            <td> </td>
+            <td> </td>
+            <td><input type="submit" name="Submit" value="Submit">   
+                <input type="reset" name="reset" value="Cancel"></td>
+        </tr>
+    </table>
+</form>
+</div>
+</body>
+</html>
