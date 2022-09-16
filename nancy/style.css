@@ -1,0 +1,52 @@
+.container{
+    background-color: rgb(236, 236, 236);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.header{
+    background-color: rgb(255, 139, 164);
+    width: 100%;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.sidebar ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+.sidebar ul li{
+    float: left;
+    display: block;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    margin: 10px;
+}
+.content{
+    align-items: justify;
+    margin: 10px;
+}
+.content-organ{
+    font-size: 13px;
+    text-align: center;
+}
+.tk{
+    width: 200px;
+    border-radius: 10px;
+}
+.sd{
+    width: 200px;
+    border-radius: 10px;
+}
+.smp{
+    width: 200px;
+    border-radius: 10px;
+}
+.smk{
+    width: 200px;
+    border-radius: 10px;
+}
